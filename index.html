@@ -14,6 +14,7 @@
 <body>
 
     <header>
+
         <nav style="background-color: #e3f2fd;" class="navbar navbar-expand-lg fixed-top">
             <div class="container-fluid">
                 <a class="pe-2 ms-2" href=""><img style="width: 100px; height: 50px;" class="img-fluid"
@@ -25,17 +26,13 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active ps-5" aria-current="page" href="#">Menu</a>
+                        <li id="menu-bar" class="nav-item order-0">
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Department</a>
+                        <li id="department-bar" class="nav-item order-1">
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Corses</a>
+                        <li id="courses-bar" class="nav-item order-2">
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Live Class</a>
+                        <li id="live-bar" class="nav-item order-3">
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -45,9 +42,11 @@
                 </div>
             </div>
         </nav>
+
     </header>
 
     <main class="container mt-5">
+
         <h1 class="pt-4 text-center">Hey there! We are from 10 Minute in Diploma team.</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam officiis dignissimos architecto, rerum
             voluptates enim, dolorum consequatur omnis et magni nihil earum, ratione rem aliquid iure pariatur sapiente
@@ -84,10 +83,26 @@
             tempore, eum velit ab. Sit blanditiis, ipsum doloribus dicta aspernatur vitae, voluptas reprehenderit sunt
             earum non optio illum modi ducimus consequuntur veritatis architecto laudantium? Numquam, voluptatum
             accusamus rem eaque aspernatur impedit laborum soluta sunt.</p>
+
+
+        <!-- ofcanvus section -->
+        <section>
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+                aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title text-info-emphasis" id="offcanvasWithBothOptionsLabel">All things you <span class="text-danger"> need !!</span></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <p>Try scrolling the rest of the page to see this option in action.</p>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer>
-        <h6 class="text-center bg-dark-subtle p-lg-3 p-sm-3">&copy;Copyright 2023 by 10 Minute in Diploma team.</h6>
+        <h6 class="text-center bg-dark-subtle p-4">&copy;Copyright 2023 by 10 Minute in Diploma team.</h6>
     </footer>
 
 
