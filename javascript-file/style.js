@@ -20,6 +20,34 @@ const departmentBar = () => {
 }
 departmentBar();
 
+function computerTechnology(){
+   window.location.href = 'computerTechnology.html';
+};
+function civilTechnology(){
+   window.location.href = 'civilTechnology.html';
+};
+function electricalTechnology(){
+   window.location.href = 'electricalTechnology.html';
+};
+function macanicalTechnology(){
+   window.location.href = 'macanicalTechnology.html';
+};
+function constructionTechnology(){
+   window.location.href = 'constructionTechnology.html';
+};
+function electronicsTechnology(){
+   window.location.href = 'electronicsTechnology.html';
+};
+function powerTechnology(){
+   window.location.href = 'powerTechnology.html';
+};
+function environmentalTechnology(){
+   window.location.href = 'environmentalTechnology.html';
+};
+function racTechnology(){
+   window.location.href = 'racTechnology.html';
+};
+
 const coursesBar = () => {
    const coursesNavAdd = document.getElementById('courses-bar');
    const createCoursesMenu = document.createElement('li');
