@@ -1,5 +1,12 @@
 #navber-section{
     margin-bottom: 20px;
 }
+.technology{
+    text-decoration: none;
+    color: red;
+}
 
+.technology:hover{
+    color: green;
+}
 

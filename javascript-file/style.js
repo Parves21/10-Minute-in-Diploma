@@ -9,7 +9,6 @@ const menuBar = () => {
 }
 menuBar();
 
-
 const departmentBar = () => {
    const departmentNavAdd = document.getElementById('department-bar');
    const createDepartmentMenu = document.createElement('li');
